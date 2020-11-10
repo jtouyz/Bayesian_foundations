@@ -1,9 +1,10 @@
 # Course 1: Bayesian Foundations Notebooks
-This repo is for UpSkill ML's Course 1 of Bayesian Foundations.
+This repo is for UpSkill ML's 💻 Course 1 of Bayesian Foundations 💻.
 
 You have two options to run this code either:
-1. Downloading the code and working with it locally or 
-2. Working through a Binder online.
+1. Working through a Binder online or
+2. Downloading the code and working with it locally.
+
 
 # Working the code through "My Binder"
 My Binder is a free service that will set up a light-weight virtual dockerized python container. It will contain the set of notebooks for this course for you to work with so you don't need to download the code locally.
@@ -12,9 +13,9 @@ To access it click the link below and it will create a `jupyter` notebook enviro
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtouyz/Bayesian_foundations/HEAD)
 
+It is free to work with and requires no sign-up on your end. It will take a couple of minutes to spin up the container so be patient.
 
-It is free to work with and requires not sign-up on your end.
-Note that sessions do expire if you are not actively work with the notebooks so you may need to "reload" a session if you step away from it for more than 30 seconds.
+Note that sessions do expire if you are not actively work with the notebooks so you may need to "reload" a session if you step away from it for more than 30 minutes.
 
 # Working with Code Locally 
 
@@ -25,13 +26,13 @@ In this section we will go through pulling down the code for use in the UpSkill 
 1. Open a terminal
 2. Navigate to a folder where you would like to clone the the code
 3. Run the following command
-`
+```
 git clone https://github.com/jtouyz/Bayesian_foundations
-`
+```
 4. A new folder will be created with the code
 
 ### Downloading the ZIP
-Navigate to https://github.com/jtouyz/Bayesian_foundations
+Navigate to https://github.com/jtouyz/Bayesian_foundations and press the green `code` button. Select `Download Zip`. Unzip it on a place on your desktop.
 
 
 ## Setting up your virtual environment
