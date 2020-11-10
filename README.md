@@ -28,7 +28,7 @@ git clone https://github.com/jtouyz/Bayesian_foundations
 4. A new folder will be created with the code
 
 ### Downloading the ZIP
-Navigate to \url{https://github.com/jtouyz/Bayesian_foundations}
+Navigate to https://github.com/jtouyz/Bayesian_foundations
 
 
 ## Setting up your virtual environment
@@ -43,13 +43,14 @@ python3 -m venv Bayesian_foundations
 `
 3. Using the same terminal or open a terminal activate your virtual envrionment using:
 Mac command:
-`
+```
 source Bayesian_foundations/bin/activate
-`
+```
+
 Windows command:
-`
+```
 Bayesian_foundations\Scripts\activate.bat
-`
+```
 4. Once you've set up your virtual environment there are 4 main libraries we will work with throughout this code. They are `pandas, numpy, scipy` and `plotnine`. Run the following set of code to install those libraries:
 `
 pip3 install numpy scipy pandas plotnine
