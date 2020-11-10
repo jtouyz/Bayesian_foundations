@@ -10,6 +10,9 @@ My Binder is a free service that will set up a light-weight virtual dockerized p
 
 To access it click the link below and it will create a `jupyter` notebook environment for you that is already pre-configured with the appropriate libraries.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtouyz/Bayesian_foundations/HEAD)
+
+
 It is free to work with and requires not sign-up on your end.
 Note that sessions do expire if you are not actively work with the notebooks so you may need to "reload" a session if you step away from it for more than 30 seconds.
 
