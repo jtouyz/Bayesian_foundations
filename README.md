@@ -69,7 +69,7 @@ pip3 install jupyterlab
 `
 
 6. Now you are ready to run the code! Navigate to the same directory you downloaded the repo's notebooks and run the following 
-```
+`
 jupyter-lab
 `
 or for the classic notebook:
