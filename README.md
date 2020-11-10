@@ -26,9 +26,11 @@ In this section we will go through pulling down the code for use in the UpSkill 
 1. Open a terminal
 2. Navigate to a folder where you would like to clone the the code
 3. Run the following command
+
 ```
 git clone https://github.com/jtouyz/Bayesian_foundations
 ```
+
 4. A new folder will be created with the code
 
 ### Downloading the ZIP
@@ -42,9 +44,10 @@ Below we demonstrate how to set up a virtual environment with `venv`:
 
 1. Open a terminal and navigate to where you want to create your virtual environment
 2. Once you have use the following piece of code:
-`
+```
 python3 -m venv Bayesian_foundations
-`
+```
+
 3. Using the same terminal or open a terminal activate your virtual envrionment using:
 Mac command:
 ```
@@ -56,16 +59,17 @@ Windows command:
 Bayesian_foundations\Scripts\activate.bat
 ```
 4. Once you've set up your virtual environment there are 4 main libraries we will work with throughout this code. They are `pandas, numpy, scipy` and `plotnine`. Run the following set of code to install those libraries:
-`
+```
 pip3 install numpy scipy pandas plotnine
-`
+```
+
 5. Next you will install several `jupyter` notebooks (or labs if you're feeling fancy) so that you can run through the code. To do that run the following set of commands:
 `
 pip3 install jupyterlab
 `
 
 6. Now you are ready to run the code! Navigate to the same directory you downloaded the repo's notebooks and run the following 
-`
+```
 jupyter-lab
 `
 or for the classic notebook:
