@@ -49,6 +49,7 @@ python3 -m venv Bayesian_foundations
 ```
 
 3. Using the same terminal or open a terminal activate your virtual envrionment using:
+
 Mac command:
 ```
 source Bayesian_foundations/bin/activate
@@ -58,22 +59,39 @@ Windows command:
 ```
 Bayesian_foundations\Scripts\activate.bat
 ```
-4. Once you've set up your virtual environment there are 4 main libraries we will work with throughout this code. They are `pandas, numpy, scipy` and `plotnine`. Run the following set of code to install those libraries:
+4. Once you've set up your virtual environment there are 4 main libraries we will work with throughout this code. They are `pandas, numpy, scipy,` and `plotnine`. Run the following set of code to install those libraries:
 ```
 pip3 install numpy scipy pandas plotnine
 ```
 
 5. Next you will install several `jupyter` notebooks (or labs if you're feeling fancy) so that you can run through the code. To do that run the following set of commands:
-`
+```
 pip3 install jupyterlab
-`
+```
 
 6. Now you are ready to run the code! Navigate to the same directory you downloaded the repo's notebooks and run the following 
-`
+````
 jupyter-lab
-`
+```
 or for the classic notebook:
-` 
+```
 jupyter-notebook
-`
+```
 When running the code, make sure to select the python3 kernel which is associated virtual environment in which you installed the required libraries. This can be done by clicking on the kernel tab in the navigation menu (once you've started a notebook) or selecting the python environment located at the top right of the running notebook.
+
+## Workaround for Big Sur (Mac)
+There are some known problems with using `SciPy` on Big Sur. Until they are resolved the following steps propose an alternate route to get started:
+
+1. Download Anaconda : Individual Edition
+	https://www.anaconda.com/products/individual
+2. Install Anaconda via downloaded package
+3. Open Anaconda Navigator
+4. Click the JupyterLab “Launch” button
+	a. go to the directory where the course repository was downloaded
+	b. open 1_p1_Bayes_theorem_ad_example_beta_binomial.ipynb
+5. Open Terminal app or launch a new tab if already open; the new Z shell should look like (already in Anaconda’s `base` environment):
+	`(base) user@node`
+	a. `cd` into course project directory
+	b. run the following to install plotnine
+		```conda install -c conda-forge plotnine```
+6. All done, Enjoy the course.
