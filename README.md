@@ -59,9 +59,9 @@ Windows command:
 ```
 Bayesian_foundations\Scripts\activate.bat
 ```
-4. Once you've set up your virtual environment there are 4 main libraries we will work with throughout this code. They are `pandas, numpy, scipy,` and `plotnine`. Run the following set of code to install those libraries:
+4. Once you've set up your virtual environment there are 4 main libraries we will work with throughout this code. They are `pandas, numpy, scipy,` `plotnine`, `tensorflow` and `tensorflow-probability`. Run the following set of code to install those libraries:
 ```
-pip3 install numpy scipy pandas plotnine
+pip3 install numpy scipy pandas plotnine tensorflow tensorflow-probability
 ```
 
 5. Next you will install several `jupyter` notebooks (or labs if you're feeling fancy) so that you can run through the code. To do that run the following set of commands:
